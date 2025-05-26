@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsicoEmprende - Innovación y Salud Mental</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#conceptos">Conceptos</a></li>
+            <li><a href="#datos">Datos</a></li>
+            <li><a href="#emprendimiento">Emprendimiento</a></li>
+            <li><a href="#test">Test</a></li>
+            <li><a href="#recursos">Recursos</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1>Psicología y Salud Mental</h1>
+            <p>Innovación y emprendimiento.</p>
+        </section>
+
+        <section id="salud-mental-choco" tabindex="0" class="hero2">
+            <h2 class="separar-parrafos">Salud Mental en el Chocó</h2>
+            <p class="texto-lateral separar-parrafos">La salud mental es fundamental para el bienestar individual y comunitario. En el
+                Chocó, la violencia, el
+                desplazamiento y la pobreza afectan profundamente la salud mental de sus habitantes. La psicología y la
+                intervención psicosocial buscan acompañar y fortalecer a las personas y comunidades en situación de
+                vulnerabilidad.
+            </p>
+            <a href="index.html">Clip aqui Psicología y Salud Mental</a>
+        </section>
+
+        <section id="conceptos" class="section">
+            <h2 class="centrar-texto">Conceptos y Definiciones</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhvo7MqEEaLcSRp94QtrElLJBM_BPEdj6i8Q&s"
+                        alt="Psicología">
+                    <h3>Psicología</h3>
+                    <p>La psicología es la ciencia que estudia el comportamiento humano y los procesos mentales,
+                        buscando comprender y mejorar la salud mental y emocional de las personas.</p>
+                </div>
+                <div class="card">
+                    <img src="https://sorece.org/wp-content/uploads/2024/01/sorece-blog-por-que-es-importante-hablar-de-la-salud-mental-1024x683.webp"
+                        alt="Salud Mental">
+                    <h3>Salud Mental</h3>
+                    <p>La salud mental es un estado de bienestar en el que la persona es consciente de sus propias
+                        capacidades, puede afrontar las tensiones normales de la vida y trabajar de forma productiva.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643" alt="Emprendimiento">
+                    <h3>Emprendimiento</h3>
+                    <p>El emprendimiento es la capacidad de iniciar y desarrollar nuevos proyectos con creatividad y
+                        visión, aportando valor a la sociedad y generando impacto positivo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos" class="section">
+            <h2 class="centrar-texto">Datos Históricos y Tendencias</h2>
+            <p>Explora los datos de emprendimiento e innovación en Colombia y el mundo, con información actualizada y
+                filtros por año, tipo de actividad y género.</p>
+            <div class="filters">
+                <select id="filtro-año" class="filter-item">
+                    <option>Año</option>
+                    <option>2023</option>
+                    <option>2022</option>
+                    <option>2021</option>
+                </select>
+                <select id="filtro-tipo" class="filter-item">
+                    <option>Tipo de emprendimiento</option>
+                    <option>Tecnológico</option>
+                    <option>Social</option>
+                    <option>Femenino</option>
+                </select>
+                <select id="filtro-region" class="filter-item">
+                    <option>País/Región</option>
+                    <option>Colombia</option>
+                    <option>Global</option>
+                </select>
+            </div>
+
+            <table class="data-table centrar-texto-tabla">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Tipo</th>
+                        <th>Región</th>
+                        <th>Emprendimientos</th>
+                        <th>Índice de Innovación</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2023</td>
+                        <td>Tecnológico</td>
+                        <td>Colombia</td>
+                        <td>1,200</td>
+                        <td>62%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Social</td>
+                        <td>Colombia</td>
+                        <td>2,500</td>
+                        <td>57%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>Femenino</td>
+                        <td>Global</td>
+                        <td>252 millones</td>
+                        <td>48%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>Tecnológico</td>
+                        <td>Colombia</td>
+                        <td>1,100</td>
+                        <td>60%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>Femenino</td>
+                        <td>Global</td>
+                        <td>244 millones</td>
+                        <td>47%</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p class="quitar_liea_enlace centrar-texto texto-negrita separar-parrafos"><a href="index3.html"
+                    target="_blank">Ver grafica
+                    de los datos</a></p>
+            <p>
+                <strong class="quitar_liea_enlace">Fuente:
+                    <a href="https://www.kaggle.com/datasets/babyoda/women-entrepreneurship-and-labor-force"
+                        target="_blank"> Women Entrepreneurship and Labor Force</a>,
+                    <a href="https://www.gemconsortium.org/" target="_blank"> Global Entrepreneurship Monitor</a>,
+                    <a href="https://www.sispro.gov.co/Pages/Home.aspx" target="_blank"> SISPRO Colombia</a>
+                </strong>
+            </p>
+        </section>
+
+        <section id="emprendimiento" class="section">
+            <h2 class="centrar-texto">Emprendimiento e Innovación</h2>
+            <div class="grid-container">
+                <div class="card">
+                    <img src="https://curlymangue.org/wp-content/uploads/2024/01/pexels-photo-3894378.jpeg"
+                        alt="Mujeres emprendedoras">
+                    <h3>Emprendimiento Femenino</h3>
+                    <p>En el mundo, más de 250 millones de mujeres han emprendido un negocio. El emprendimiento femenino
+                        se concentra en sectores como servicios, educación y comercio.</p>
+                </div>
+                <div class="card">
+                    <img src="https://www.portafolio.co/files/article_new_multimedia/uploads/2024/01/26/65b3d066e2726.png"
+                        alt="Innovación">
+                    <h3>Tendencia de la Innovación</h3>
+                    <p>La innovación global sigue creciendo, con un aumento del 10% anual en startups tecnológicas y
+                        sociales. Colombia destaca por su dinamismo en emprendimiento social y digital.</p>
+                </div>
+                <div class="card">
+                    <img src="https://lanotaeconomica.com.co/wp-content/uploads/2022/08/Foto-Cortesia-CCB-1-1.jpeg"
+                        alt="Participación Colombia">
+                    <h3>Participación en Colombia</h3>
+                    <p>El 40% de los emprendimientos en Colombia son liderados por mujeres. Los sectores más dinámicos
+                        son comercio, servicios y tecnología.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="test" class="section">
+            <div class="quiz-form">
+                <h2 class="centrar-texto">Test de Capacidad Emprendedora e Innovadora</h2>
+                <form id="emprendimientoTest">
+                    <div class="question">
+                        <p class="texto-negrita">1. ¿Con qué frecuencia buscas nuevas soluciones a problemas existentes?
+                        </p>
+                        <label><input type="radio" name="q1" value="4"> Siempre</label>
+                        <label><input type="radio" name="q1" value="3"> Frecuentemente</label>
+                        <label><input type="radio" name="q1" value="2"> Ocasionalmente</label>
+                        <label><input type="radio" name="q1" value="1"> Rara vez</label>
+                    </div>
+                    <div class="question">
+                        <p class="texto-negrita">2. ¿Te consideras una persona que asume riesgos para alcanzar tus
+                            metas?</p>
+                        <label><input type="radio" name="q2" value="4"> Siempre</label>
+                        <label><input type="radio" name="q2" value="3"> Frecuentemente</label>
+                        <label><input type="radio" name="q2" value="2"> Ocasionalmente</label>
+                        <label><input type="radio" name="q2" value="1"> Rara vez</label>
+                    </div>
+                    <div class="question">
+                        <p class="texto-negrita">3. ¿Te motivas fácilmente por nuevas ideas o proyectos?</p>
+                        <label><input type="radio" name="q3" value="4"> Siempre</label>
+                        <label><input type="radio" name="q3" value="3"> Frecuentemente</label>
+                        <label><input type="radio" name="q3" value="2"> Ocasionalmente</label>
+                        <label><input type="radio" name="q3" value="1"> Rara vez</label>
+                    </div>
+                    <div class="question">
+                        <p class="texto-negrita">4. ¿Te adaptas rápidamente a los cambios?</p>
+                        <label><input type="radio" name="q4" value="4"> Siempre</label>
+                        <label><input type="radio" name="q4" value="3"> Frecuentemente</label>
+                        <label><input type="radio" name="q4" value="2"> Ocasionalmente</label>
+                        <label><input type="radio" name="q4" value="1"> Rara vez</label>
+                    </div>
+                    <div class="question">
+                        <p class="texto-negrita">5. ¿Tienes iniciativa para liderar proyectos o equipos?</p>
+                        <label><input type="radio" name="q5" value="4"> Siempre</label>
+                        <label><input type="radio" name="q5" value="3"> Frecuentemente</label>
+                        <label><input type="radio" name="q5" value="2"> Ocasionalmente</label>
+                        <label><input type="radio" name="q5" value="1"> Rara vez</label>
+                    </div>
+                    <button type="submit">Calcular resultado</button>
+                </form>
+                <div id="resultado"></div>
+            </div>
+        </section>
+
+        <section id="recursos" class="section">
+            <h2 class="centrar-texto">Recursos y Organizaciones de Apoyo</h2>
+            <div class="grid-container quitar_liea_enlace">
+                <div class="card2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbdKZTaMrqOLCZJmzK4wglZ7hGaOOIeuPqQg&s"
+                        alt="Asociación Colombiana de Psiquiatría">
+                    <h3>Asociación Colombiana de Psiquiatría</h3>
+                    <p>Organización líder en salud mental en Colombia. <a class="texto-negrita"
+                            href="https://psiquiatria.org.co" target="_blank">Visitar sitio</a></p>
+                </div>
+                <div class="card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Logo_Colpsic.jpg"
+                        alt="Colegio Colombiano de Psicólogos">
+                    <h3>Colegio Colombiano de Psicólogos</h3>
+                    <p>Directorio de líneas de ayuda y recursos en salud mental. <a class="texto-negrita"
+                            href="https://www.colpsic.org.co" target="_blank">Visitar sitio</a></p>
+                </div>
+                <div class="card2">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Logo_del_Ministerio_de_Salud_de_Colombia_%282022-2026%29.png"
+                        alt="Ministerio de Salud">
+                    <h3>Ministerio de Salud</h3>
+                    <p>Directorio de líneas territoriales de teleorientación en salud mental. <a class="texto-negrita"
+                            href="https://www.minsalud.gov.co" target="_blank">Visitar sitio</a></p>
+                </div>
+
+
+                <div class="card2">
+                    <img src="https://scontent.fclo8-1.fna.fbcdn.net/v/t39.30808-6/361249611_670784021733674_1753948907646548245_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeH0Uu48YLu8EafwXqLS-StTazTx_lj7uoNrNPH-WPu6g7gxpNL2KZ3WKXtfvkyhxQG_4ks9ouNyVNSdbRz9Xjg4&_nc_ohc=jOHGnKoJ-r8Q7kNvwHLNq6V&_nc_oc=AdlI7Oc2-d7cwX7LL62hyEtNhoOFf_ZhtCKc40AifaY-PztVa1owCjwLUiu_NUa9aog&_nc_zt=23&_nc_ht=scontent.fclo8-1.fna&_nc_gid=y0fMKgxu-GgKHlkXE1AJJQ&oh=00_AfLPU2d_LOYuZEBcil2gzhPw87ol2Ngx-UOSF1saKxlvnw&oe=683A6E3F"
+                        alt="Clínica Bantú">
+                    <h3>Clínica Bantú</h3>
+                    <p>Atención integral en salud mental para víctimas del conflicto y violencia de género. [Contacto
+                        directo]</p>
+                </div>
+
+                <div class="card2">
+                    <img src="https://www.msf.org.co/wp-content/uploads/2023/05/msf_seo.jpg"
+                        alt="Médicos Sin Fronteras">
+                    <h3>Médicos Sin Fronteras</h3>
+                    <p>Proyectos de salud mental y psicosocial en el Alto Baudó. <a class="texto-negrita"
+                            href="https://www.msf.org.ar/" target="_blank" rel="noopener">Visitar sitio</a></p>
+                </div>
+
+                <div class="card2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-5Uaiz8aaFORzsyrRaiaxyTcLrn0028s7kA&s"
+                        alt="Líneas de ayuda">
+                    <h3>MentalMente</h3>
+                    <p>Atención especializada en salud mental, con altos estándares de calidad y ética. <a
+                            class="texto-negrita" href="https://www.mentalmente.com.co/" target="_blank"
+                            rel="noopener">Visitar sitio</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card2 quitar_liea_enlace">
+                <img src="https://bogota.gov.co/sites/default/files/styles/1050px/public/2023-11/linea106.jpeg"
+                    alt="Líneas de ayuda">
+                <h3 class="centrar-texto">Líneas de Ayuda</h3>
+                <p class="centrar-texto">Línea 106: “El poder de ser escuchado”. Atención, ayuda e intervención
+                    psicosocial en crisis. <a class="texto-negrita"
+                        href="https://www.colpsic.org.co/wp-content/uploads/2021/08/Directorio-salud-mental-Colombia.pdf"
+                        target="_blank">Ver directorio</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Arroyo Hernandez</p>
+        <div class="social-links">
+            <a href="https://web.facebook.com/Arroyo.King.36" target="_blank">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M22 12a10 10 0 10-11.5 9.9v-7h-2v-3h2v-2c0-2 1-3 3-3h2v3h-2c-1 0-1 .5-1 1v1h3l-1 3h-2v7A10 10 0 0022 12z" />
+                </svg>
+                Facebook
+            </a> |
+            <a href="https://www.linkedin.com/in/arroyo-kings/" target="_blank">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M4.98 3.5a2.5 2.5 0 11-.001 5.001A2.5 2.5 0 014.98 3.5zM3 8.5h4v12H3v-12zm7 0h3.6v1.7h.05c.5-.9 1.7-1.8 3.5-1.8 3.7 0 4.4 2.4 4.4 5.5v6.6h-4v-5.8c0-1.4 0-3.2-2-3.2-2 0-2.3 1.6-2.3 3.1v5.9h-4v-12z" />
+                </svg>
+                LinkedIn
+            </a> |
+            <a href="https://www.youtube.com/@ArroyoKings" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg aria-hidden="true" focusable="false" viewBox="0 0 24 24">
+                    <path
+                        d="M29.41,9.26a3.5,3.5,0,0,0-2.47-2.47C24.76,6.2,16,6.2,16,6.2s-8.76,0-10.94.59A3.5,3.5,0,0,0,2.59,9.26,36.13,36.13,0,0,0,2,16a36.13,36.13,0,0,0,.59,6.74,3.5,3.5,0,0,0,2.47,2.47C7.24,25.8,16,25.8,16,25.8s8.76,0,10.94-.59a3.5,3.5,0,0,0,2.47-2.47A36.13,36.13,0,0,0,30,16,36.13,36.13,0,0,0,29.41,9.26ZM13.2,20.2V11.8L20.47,16Z" />
+                </svg> YouTube
+            </a>
+        </div>
+        <p>© 2025 Psicología y Salud Mental. Todos los derechos reservados.</p>
+    </footer>
+    <br>
+    <script src="js/script_index.js"></script>
+</body>
+
+</html>
