@@ -355,6 +355,10 @@ footer a:focus {
   outline: none;
 }
 
+.texto-negrita {
+    font-weight: bold;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   nav ul {
