@@ -81,7 +81,7 @@ main {
     padding: 4rem 2rem;
     border-radius: 10px;
     margin-bottom: 2rem;
-  
+
 }
 
 .section {
@@ -280,7 +280,7 @@ footer {
         flex-direction: column;
     }
 
-    .letrero {        
+    .letrero {
         margin-top: 100px;
     }
 }
